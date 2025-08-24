@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* about section */
 .about_layer {
     position: relative;
 }
@@ -26,3 +27,16 @@ top: 0;
 right: 100px;
 transform: rotate(130deg);
 }
+
+/* category section */
+/* .img_category_layer{
+
+width: 100%;
+  height: 0;
+  bottom: 0;
+}
+
+.category_card:hover .img_category_layer{
+height: 100%;
+overflow: auto;
+} */
