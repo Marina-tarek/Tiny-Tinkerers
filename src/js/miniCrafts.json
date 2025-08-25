@@ -1,0 +1,68 @@
+{
+  "Crafts": [
+    {
+      "id": 1,
+      "name": "Sheep Tissue Paper",
+      "description": "Create your own fluffy sheep using soft tissue paper! \n This easy craft helps kids develop fine motor skills while having fun tearing, gluing, and shaping the paper into a cute, cuddly sheep.\n Perfect for storytime or farm-themed activities!",
+      "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg",
+      "images": [
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/sheep-farm-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/sheep-craft-preschool-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/easy-sheep-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/printable-sheep-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/sheep-easter-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg"
+      ],
+      "category": "paper",
+      "video": "https://youtu.be/d6lMpaVI91k"
+    },
+    {
+      "id": 2,
+      "name": "Butterfly Toilet Paper Roll",
+      "description": "Create a beautiful butterfly using a recycled toilet paper roll! Paint the roll in bright colors, attach paper wings, and add googly eyes for a fun and creative craft that kids will love.",
+      "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/simple-butterfly-craft.jpg",
+      "images": [
+        "hhttps://www.simpleeverydaymom.com/wp-content/uploads/2024/04/tp-roll-paper-butterfly-craft.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/tp-roll-paper-butterfly-craft.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/free-printable-butterfly-toilet-roll-craft.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/butterfly-project-for-kids.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/butterfly-craft-activities.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/how-to-make-a-butterfly-tp-roll-craft.jpg"
+      ],
+      "category": "paper",
+      "video": "https://youtu.be/8bMjWnvanIQ?si=wnqwdZPmzUCHaBLV"
+    },
+    {
+      "id": 3,
+      "name": "Fork Magic",
+      "description": "Forky Craft is a fun world of simple handmade creations using just a fork. Together, we make easy and creative crafts for kids and adults. With simple tools and playful ideas, we turn ordinary objects into joyful works of art full of creativity and fun.",
+      "main_image": "https://i.pinimg.com/736x/57/ad/51/57ad517517bb133207fc190cdd019c03.jpg",
+      "images": [
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/make-your-own-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/diy-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-diy-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-a-forky-image.jpg"
+      ],
+      "category": "paper",
+      "video": "https://youtu.be/BpT6rfQw3Hg?si=NEnAbT307qiUhv-U"
+    },
+    {
+      "id": 3,
+      "name": "Fork Magic",
+      "description": "Forky Craft is a fun world of simple handmade creations using just a fork. Together, we make easy and creative crafts for kids and adults. With simple tools and playful ideas, we turn ordinary objects into joyful works of art full of creativity and fun.",
+      "main_image": "https://i.pinimg.com/736x/57/ad/51/57ad517517bb133207fc190cdd019c03.jpg",
+      "images": [
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/make-your-own-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/diy-forky-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-diy-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-craft-image.jpg",
+        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-a-forky-image.jpg"
+      ],
+      "category": "paper",
+      "video": "https://youtu.be/BpT6rfQw3Hg?si=NEnAbT307qiUhv-U"
+    }
+  ]
+}

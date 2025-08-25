@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 /* about section */
-.about_layer {
+/* .about_layer {
     position: relative;
 }
 .about_layer::after{
@@ -26,7 +27,7 @@ height: 65px;
 top: 0;
 right: 100px;
 transform: rotate(130deg);
-}
+} */
 
 /* category section */
 /* .img_category_layer{
@@ -40,3 +41,19 @@ width: 100%;
 height: 100%;
 overflow: auto;
 } */
+.card-title-bar {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom-left-radius: 20px; /* Adjust as needed */
+  border-bottom-right-radius: 20px; /* Adjust as needed */
+    right: -5px;
+    left: -5px;
+}
+.card-title-bar h3 {
+  margin: 0; /* Remove default margin from heading */
+  font-family: Arial, sans-serif; /* Or a similar bold sans-serif font */
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white; /* Or black, based on background */
+}

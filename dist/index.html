@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scheme-light">
+<html lang="en" class="dark scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -19,16 +19,18 @@
   <!-- start hero section -->
   <section id="Home" class="hero_section bg-white dark:bg-gray-900 py-7">
     <div class="container mx-auto">
-      <div class="flex justify-between items-center">
-        <div class="hero_desc w-11/12 mx-auto md:w-6/12">
-          <h1 class="text-[#EE4F31] text-5xl font-bold">Welcome to Tiny Tinkerers!</h1>
+      <div class="flex flex-col gap-y-8  md:flex-row md:justify-between md:items-center">
+        <div class="hero_desc w-10/12 text-center  mx-auto md:w-6/12 md:text-start">
+          <h1
+            class="text-[#EE4F31] text-5xl font-bold mb-10 sm:w-[70%] mx-auto md:mx-0 md:w-[90%] lg:w-[70%] xl:w-[55%]">
+            Welcome to Tiny Tinkerers!</h1>
           <p class="text-black dark:text-white my-4 ">A magical space where kids explore, create, and craft their
             imaginations into colorful masterpieces.</p>
-          <div><a href="craft.html"
-              class="btn bg-[#EE4F31] py-2 px-2.5 rounded-4xl text-white hover:bg-white hover:text-[#EE4F31] hover:border-[#EE4F31] transition-all mt-6 ">Explore
+          <div class="mt-10"><a href="craft.html"
+              class="btn bg-[#EE4F31]  py-2 px-2.5 rounded-4xl text-white hover:bg-white hover:text-[#EE4F31] hover:border-[#EE4F31] transition-all">Explore
               Crafts</a></div>
         </div>
-        <div class="hero_image w-11/12 mx-auto md:w-5/12 rounded-4xl overflow-hidden">
+        <div class="hero_image w-9/12 mx-auto md:w-5/12 rounded-4xl overflow-hidden">
           <img src="../src/images/home-image.png" alt="Tiny Tinkerers home image"
             class="w-full aspect-[10/12] lg:aspect-[13/12]">
         </div>
@@ -38,8 +40,9 @@
   <!-- end hero section -->
   <main>
     <!--start About section -->
-    <section id="About" class="about bg-white dark:bg-gray-900  py-16 ">
-      <div class="about_layer ">
+    <section id="About"
+      class="about bg-white dark:bg-gray-900   h-[60vh] bg-[url(../src/images/about-layer.jpg)] bg-center bg-cover">
+      <div class="about_layer py-16 bg-[#000000af] h-[60vh] flex items-center">
         <div class="container mx-auto ">
           <div class="text-center">
             <h2 class="text-[#EE4F31]  text-3xl font-bold my-4">About Us</h2>
@@ -57,77 +60,66 @@
       <div class="container mx-auto">
         <div class="flex flex-col justify-center items-center">
           <h2 class="text-[#EE4F31] text-3xl font-bold my-4">Our Fun Crafts</h2>
-          <p class="text-black dark:text-white w-full md:w-9/12 mx-auto my-4">It is a playful collection of creative
+          <p class="text-black dark:text-white w-full md:w-9/12 mx-auto my-4 text-center">It is a playful collection of
+            creative
             activities designed to spark imagination and joy. From colorful paper art and painting adventures to shaping
             magical clay models, each project is simple, fun, and perfect for little hands. Every craft encourages
             learning, creativity, and lots of smiles!</p>
         </div>
-        <div class="grid gap-8 md:grid-cols-3 my-5">
-          <!-- <div
-            class="bg-white h-72 px-5 pb-5 rounded-2xl shadow-lg hover:scale-105 transition text-center relative flex items-center">
-            <div class=" absolute right-[-10px] bottom-[-15px] ">
-              <img src="../src/images/paper creation001.png" alt="Paper crafts" class=" h-60  object-cover ">
-            </div>
-            <div class="bg-[#EE4F31] h-full w-10/12 ">
-              <h3 class="text-2xl font-semibold text-white my-4">Paper crafts</h3>
-              <p class="text-gray-600 ">Make animals, flowers, and fun shapes from colorful paper.</p>
-            </div>
-          </div> -->
-                    <!-- <div
-            class="bg-white h-72 px-3 pb-5 rounded-2xl shadow-lg hover:scale-105 transition text-center relative flex items-center">
-            <div class=" absolute right-0 bottom-0 rotate-[270deg]">
-              <img src="../src/images/paint.png" alt="Painting Fun" class=" h-36  object-cover ">
-            </div>
-            <div class="bg-[#00C2D7] h-full w-10/12 ">
-              <h3 class="text-2xl font-semibold text-white my-4">Painting Fun</h3>
-              <p class="text-gray-600 ">Unleash creativity with bright colors and unique art styles.</p>
-            </div>
-          </div> -->
-          <div class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center">
+        <div class="flex gap-y-9 gap-x-2.5 justify-center md:justify-around lg:justify-evenly xl:justify-between my-5 flex-wrap">
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center w-7/12 md:w-5/12 lg:w-4/12 xl:w-[22%] relative">
             <img src="../src/images/paper creation01.jpg" alt="Paper crafts"
               class="rounded-xl mb-4 w-full h-[15rem] object-cover">
-            <h3 class="text-2xl font-semibold text-[#EE4F31]">Paper Creations</h3>
-            <p class="text-gray-600">Make animals, flowers, and fun shapes from colorful paper.</p>
+            <div class="card-title-bar  bg-[#EE4F31] absolute bottom-[25%]">
+              <h3 class="text-2xl font-semibold ">Paper Creations</h3>
+            </div>
+            <p class="text-gray-600 mt-5">Make animals, flowers, and fun shapes from colorful paper.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center">
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center w-7/12  md:w-5/12 lg:w-4/12 xl:w-[22%] relative">
             <img src="../src/images/paint01.jpg" alt="Paint crafts"
               class="rounded-xl mb-4 w-full h-[15rem] object-cover">
-            <h3 class="text-2xl font-semibold text-[#EE4F31] ">Painting Fun</h3>
-            <p class="text-gray-600">Unleash creativity with bright colors and unique art styles.</p>
-          </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center">
-            <img src="../src/images/clay02.jpg" alt="Clay Model"
-              class="rounded-xl mb-4 w-full h-[15rem] object-cover">
-            <h3 class="text-2xl font-semibold text-[#EE4F31] ">Clay Models</h3>
-            <p class="text-gray-600">Shape fun animals, toys, and decorations with colorful clay.</p>
-          </div>
-          <!-- <div
-            class="bg-white h-72 px-5 pb-5 rounded-2xl shadow-lg hover:scale-105 transition text-center relative flex items-center">
-            <img src="../src/images/paint01.jpg" 
-             alt="Paint crafts" class="rounded-xl mb-4 w-full h-[15rem] object-cover"> 
-            <div class=" absolute right-[20px] bottom-[-20px] ">
-              <img src="../src/images/clay02.png" alt="Clay Models" class=" h-60   object-cover ">
+            <div class="card-title-bar  bg-[#00C2D7] absolute bottom-[25%]">
+              <h3 class="text-2xl font-semibold ">Painting Fun</h3>
             </div>
-            <div class="bg-[#EE4F31] h-full w-10/12 ">
-              <h3 class="text-2xl font-semibold text-white my-4">Clay Models</h3>
-              <p class="text-gray-600 ">Shape fun animals, toys, and decorations with colorful clay.</p>
+            <p class="text-gray-600 mt-5">Unleash creativity with bright colors and unique art styles.</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center w-7/12  md:w-5/12 lg:w-4/12 xl:w-[22%] relative">
+            <img src="../src/images/clay02.jpg" alt="Clay Model" class="rounded-xl mb-4 w-full h-[15rem] object-fill">
+            <div class="card-title-bar  bg-[#EE4F31] absolute bottom-[25%]">
+              <h3 class="text-2xl font-semibold ">Clay Models</h3>
             </div>
-          </div> -->
-          <!-- <div class="relative category_card">
-        <img src="../src/images/paint02.jpg" alt="Clay Models" class="w-full">
-        <div class="img_category_layer absolute bg-gray-600 flex justify-center items-center ">
-<div class="text-center ">
-             <h3 class="text-2xl font-semibold text-[#EE4F31] my-8">Clay Models</h3>
-        <p class="text-white my-8">Shape fun animals, toys, and decorations with colorful clay.</p>
-        <div class="my-8"><a href="craft.html" class="btn bg-[#EE4F31] py-3 px-4 rounded-4xl text-white hover:bg-white hover:text-[#EE4F31] hover:border-[#EE4F31] transition-all mt-6 ">Explore Crafts</a></div>
-</div>
-        </div>
-      </div> -->
+            <p class="text-gray-600 mt-5">Shape fun animals, toys, and decorations with colorful clay.</p>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg hover:scale-105 transition text-center w-7/12  md:w-5/12 lg:w-4/12 xl:w-[22%] relative">
+            <img src="https://i.pinimg.com/736x/87/d4/24/87d424a8a203035eb99337954e364162.jpg" alt="Clay Model" class="rounded-xl mb-4 w-full h-[15rem] object-fill">
+            <div class="card-title-bar  bg-[#00C2D7] absolute bottom-[25%]">
+              <h3 class="text-2xl font-semibold ">Models</h3>
+            </div>
+            <p class="text-gray-600 mt-5">Build fun models is creative way for kids to learn, imagine, and play!</p>
+          </div>
         </div>
 
       </div>
     </section>
     <!-- end category section  -->
+
+    <!--start popular crafts -->
+    <section class=" bg-white dark:bg-gray-900  py-16">
+      <div class="container">
+        <div class="flex my-5 justify-center">
+          <h2 class="text-[#EE4F31] text-3xl font-bold ">Popular Crafts</h2>
+        </div>
+        <div  class="popular_craft_cards flex gap-y-9 gap-x-2.5 justify-center md:justify-around lg:justify-evenly xl:justify-between my-5 flex-wrap">
+
+        </div>
+      </div>
+    </section>
+    <!-- end popular crafts -->
   </main>
 
 
@@ -146,7 +138,9 @@
         document.getElementById("navbar-placeholder").innerHTML = data;
       });
   </script>
-  <script src="../src/js/main.js"></script>
+
+  <script src="../src/js/mode.js"></script>
+  <script src="../src/js/index.js"></script>
 
 </body>
 
