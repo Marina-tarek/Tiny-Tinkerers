@@ -14,11 +14,12 @@
         "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg"
       ],
       "category": "paper",
-      "video": "https://youtu.be/d6lMpaVI91k"
+      "video": "https://www.youtube.com/embed/d6lMpaVI91k?si=jXcA7EJ0IFDrP3Lg",
+      "tools":["White tissue paper","Cardstock or white paper","Glue","Scissors","Googly eyes (optional)"]
     },
     {
       "id": 2,
-      "name": "Butterfly Toilet Paper Roll",
+      "name": "Butterfly Roll",
       "description": "Create a beautiful butterfly using a recycled toilet paper roll! Paint the roll in bright colors, attach paper wings, and add googly eyes for a fun and creative craft that kids will love.",
       "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/simple-butterfly-craft.jpg",
       "images": [
@@ -30,7 +31,8 @@
         "https://www.simpleeverydaymom.com/wp-content/uploads/2024/04/how-to-make-a-butterfly-tp-roll-craft.jpg"
       ],
       "category": "paper",
-      "video": "https://youtu.be/8bMjWnvanIQ?si=wnqwdZPmzUCHaBLV"
+      "video": "https://www.youtube.com/embed/8bMjWnvanIQ?si=8u46yN1d3UAOgkUG",
+      "tools":["Empty toilet paper roll","acrylic","paintbrush","Glue","Googly eyes","Markers"]
     },
     {
       "id": 3,
@@ -45,24 +47,28 @@
         "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-craft-image.jpg",
         "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-a-forky-image.jpg"
       ],
-      "category": "paper",
-      "video": "https://youtu.be/BpT6rfQw3Hg?si=NEnAbT307qiUhv-U"
+      "category": "model",
+      "video": "https://www.youtube.com/embed/BpT6rfQw3Hg?si=wstS5skWEJwRizLu",
+      "tools":["Polymer clay","Forky","glue","sticks"]
     },
     {
-      "id": 3,
-      "name": "Fork Magic",
-      "description": "Forky Craft is a fun world of simple handmade creations using just a fork. Together, we make easy and creative crafts for kids and adults. With simple tools and playful ideas, we turn ordinary objects into joyful works of art full of creativity and fun.",
-      "main_image": "https://i.pinimg.com/736x/57/ad/51/57ad517517bb133207fc190cdd019c03.jpg",
+      "id": 4,
+      "name": "Stitch",
+      "description": "Do you love Stitch from Lilo & Stitch? 💙 With this fun craft, you can make your very own Stitch using soft modeling clay! It’s super easy, and you don’t need many tools—just your hands, some colorful clay, and a big smile.",
+      "main_image": "https://i.pinimg.com/1200x/0a/32/47/0a32476bd70edfebcb89daf7a5b221a6.jpg",
       "images": [
-        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-forky-image.jpg",
-        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/make-your-own-forky-image.jpg",
-        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/diy-forky-image.jpg",
-        "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-diy-image.jpg",
+        "https://i.pinimg.com/736x/e1/7a/b1/e17ab18e2d1e281329f6d95c12a31e61.jpg",
+        "https://i.pinimg.com/736x/81/0d/18/810d18861213d8aa9dd4ab2b7ff5bd32.jpg",
+        "https://i.pinimg.com/736x/d4/6e/41/d46e41e84810f4ad4c447b98e0313dcb.jpg",
+        "https://i.pinimg.com/736x/1e/c6/24/1ec624c3f91bade1ccbf74ef21321743.jpg",
         "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/forky-craft-image.jpg",
         "https://www.simpleeverydaymom.com/wp-content/uploads/2019/04/how-to-make-a-forky-image.jpg"
       ],
-      "category": "paper",
-      "video": "https://youtu.be/BpT6rfQw3Hg?si=NEnAbT307qiUhv-U"
+      "category": "clay",
+      "video": "https://www.youtube.com/embed/1lHuufFC7NM?si=WYrzpF3ruhdLPrOe",
+      "tools":["clay types", "basic tools", "optional painting supplies"]
     }
+    
+    
   ]
 }
