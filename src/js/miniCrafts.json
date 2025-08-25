@@ -67,6 +67,74 @@
       "category": "clay",
       "video": "https://www.youtube.com/embed/1lHuufFC7NM?si=WYrzpF3ruhdLPrOe",
       "tools":["clay types", "basic tools", "optional painting supplies"]
+    },
+    {
+      "id": 5,
+      "name": "Minion",
+      "description": "Bring your favorite yellow friends to life with this fun Minion clay project! Using colorful clay, kids can roll, shape, and build their own silly Minion—complete with overalls, big goggles, and a cheeky smile. It’s a great way to practice creativity and fine motor skills while making a playful character you can display or gift.\n This activity is perfect for kids who love Minions, clay modeling, or fun movie crafts. Each Minion will look a little different, making every creation unique and full of personality!",
+      "main_image": "https://i.pinimg.com/736x/92/c3/12/92c31238c708f3615cee2df5b6c12690.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/8f/d3/84/8fd384360e1278f4f88524159d0e3389.jpg",
+        "https://i.pinimg.com/1200x/57/b6/6b/57b66b5bdb8a2ab732c1948f02bdf736.jpg",
+        "https://i.pinimg.com/1200x/b0/8e/b0/b08eb060c5f6fe1878974818cfacfdf1.jpg",
+        "https://i.pinimg.com/736x/4d/11/c5/4d11c5cc8c82f9c360bc19c1aec2a362.jpg",
+        "https://i.pinimg.com/1200x/2c/13/c2/2c13c2ec519211c16ce9d04f6b1f3611.jpg",
+        "https://i.pinimg.com/736x/62/62/a1/6262a1d851e01e4748d69292c9a27fbc.jpg"
+      ],
+      "category": "clay",
+      "video": "https://www.youtube.com/embed/Anhln849OOs?si=l02NsGf0EzN6c8DK",
+      "tools":["Palette knife","Box cutter or blade","Toothpicks","Roller","polymer clay"]
+    },
+    {
+      "id": 6,
+      "name": "Bottle Car",
+      "description": "Turn everyday recyclables into an exciting moving toy! With just a plastic bottle, bottle caps, rubber bands, and a propeller, you can build your very own car that really zooms forward. The secret is the elastic band power—when you twist and release, the propeller spins and pushes the car ahead.\n This fun craft teaches kids about recycling, creativity, and simple science (energy and motion) while making a toy they’ll love to race. Perfect for school projects, STEM activities, or just a rainy-day craft at home!",
+      "main_image": "https://content.instructables.com/FRE/14HU/IHS3QXOQ/FRE14HUIHS3QXOQ.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODowMTo1Ni4w&_gl=1*7zdgqs*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+      "images": [
+        "https://content.instructables.com/FGK/SV4G/IHS3QXRO/FGKSV4GIHS3QXRO.jpg?auto=webp&frame=1&width=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoxMTowNy4w&_gl=1*aw0mtz*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FMR/EFRW/IHS3QY8Z/FMREFRWIHS3QY8Z.jpg?auto=webp&frame=1&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoxMToyOC4w&_gl=1*14gpvx6*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FMR/OMRQ/IHS3R1H5/FMROMRQIHS3R1H5.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoyMDo1MS4w&_gl=1*14ejbyk*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FP3/63HN/IHS3R20W/FP363HNIHS3R20W.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoyMTowOC4w&_gl=1*b2k0ml*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FZE/T1PI/IHS3R2V9/FZET1PIIHS3R2V9.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODozMTo1Mi4w&_gl=1*ay73ep*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FWB/GK2H/IHS3R5UI/FWBGK2HIHS3R5UI.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODo0MTo0MS4w&_gl=1*148xd28*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw"
+      ],
+      "category": "model",
+      "video": "https://www.youtube.com/embed/0xFOnhDE9fk?si=aYt3wOoroFFA-lR6",
+      "tools":["Plastic bottles","Sticks or skewers","Elastic bands","Bottle caps","Glue","Craft knife or scissors"]
+    },
+    {
+      "id": 7,
+      "name": "Gingerbread",
+      "description": "This fun holiday craft lets kids make their own gingerbread friend using just paper, glue, and imagination! Start with a brown paper gingerbread shape, then tear little pieces of white paper to look like icing. Add colorful paper for buttons and candies, draw a big smile, and decorate however you like.\n It’s simple, festive, and perfect for Christmas activities at home, in school, or during holiday parties. The best part? Tearing the paper gives your gingerbread a cute, textured look—and no two gingerbread people will ever be the same!",
+      "main_image": "https://content.instructables.com/FRE/14HU/IHS3QXOQ/FRE14HUIHS3QXOQ.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODowMTo1Ni4w&_gl=1*7zdgqs*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+      "images": [
+        "https://content.instructables.com/FGK/SV4G/IHS3QXRO/FGKSV4GIHS3QXRO.jpg?auto=webp&frame=1&width=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoxMTowNy4w&_gl=1*aw0mtz*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FMR/EFRW/IHS3QY8Z/FMREFRWIHS3QY8Z.jpg?auto=webp&frame=1&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoxMToyOC4w&_gl=1*14gpvx6*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FMR/OMRQ/IHS3R1H5/FMROMRQIHS3R1H5.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoyMDo1MS4w&_gl=1*14ejbyk*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FP3/63HN/IHS3R20W/FP363HNIHS3R20W.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODoyMTowOC4w&_gl=1*b2k0ml*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FZE/T1PI/IHS3R2V9/FZET1PIIHS3R2V9.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODozMTo1Mi4w&_gl=1*ay73ep*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw",
+        "https://content.instructables.com/FWB/GK2H/IHS3R5UI/FWBGK2HIHS3R5UI.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=MjAxNS0xMi0wNCAxODo0MTo0MS4w&_gl=1*148xd28*_ga*MjA0MTc0NzM4Ni4xNzU2MTQ4Mzg0*_ga_NZSJ72N6RX*czE3NTYxNDgzODQkbzEkZzEkdDE3NTYxNDgzODQkajYwJGwwJGgw"
+      ],
+      "category": "paper",
+      "video": "https://www.youtube.com/embed/kMcpVy-uPEk?si=1v8SKDcjNHA5jUx6",
+      "tools":["Brown paper","Scissors","Markers or crayons","White paper","Glue","Optional embellishments","Colored paper"]
+    },
+    {
+      "id": 8,
+      "name": "papper cup Robot",
+      "description": "Build your very own robot that really moves—using just paper and a few simple supplies! This fun craft lets kids cut, fold, and glue paper to make a playful robot with arms or parts that swing and wiggle. By adding small pivots or paper rods, the robot comes to life in a creative, hands-on way.\n It’s the perfect project for kids who love robots, engineering, and imaginative play. Plus, it encourages problem-solving and fine motor skills while keeping the activity simple and fun. Each robot can be decorated differently, so no two robots are ever the same!",
+      "main_image": "https://i.pinimg.com/736x/c4/bd/60/c4bd6099ca3eee6a89881fa6646cdd89.jpg",
+      "images": [
+        "https://i.pinimg.com/1200x/98/2f/61/982f619b95faa3eec613f4f67df7913e.jpg",
+        "https://i.pinimg.com/736x/97/09/39/970939cd3976ad4db97ed643cad71424.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/cool-robot-craft-using-paper-cup-toilet-paper-roll-step-by-step-tutorial-8.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/cool-robot-craft-using-paper-cup-toilet-paper-roll-step-by-step-tutorial-9.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/cool-robot-craft-using-paper-cup-toilet-paper-roll-step-by-step-tutorial-12.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/cool-robot-craft-using-paper-cup-toilet-paper-roll-step-by-step-tutorial-14.jpg"
+      ],
+      "category": "model",
+      "video": "https://www.youtube.com/embed/4U_5Nw7WrL8?si=c3SCXCriAozzG0od",
+      "tools":["Paper","Glue","craft blade","Glue","Printed templates (optional)","Rubber bands (optional)"]
     }
     
     
