@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiny Tinkerers</title>
-        <!-- font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="output.css">
-</head>
-<body>
-    <!-- start navbar -->
-      <nav id="navbar-placeholder"></nav>
+<html lang="en" class="dark">
 
-      <script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiny Tinkerers</title>
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+  <!-- start navbar -->
+  <nav id="navbar-placeholder"></nav>
+  <main>
+    <!-- strat crafts section -->
+    <section class="main_crafts_section bg-white dark:bg-gray-900 py-10">
+      <div class="container mx-auto">
+        <div class="flex justify-center mb-10">
+          <h2 class="text-[#EE4F31] text-3xl font-bold font-serif ">All Crafts</h2>
+        </div>
+        <div id="All_craft_cards"
+          class=" flex gap-y-10 gap-x-2 justify-center md:justify-around lg:justify-evenly xl:justify-between my-5 flex-wrap">
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
     fetch("navbar.html")
       .then(response => response.text())
       .then(data => {
@@ -22,5 +39,7 @@
   </script>
   <script src="../src/js/mode.js"></script>
   <script src="../src/js/craft.js"></script>
+   <!-- <script src="../src/js/index.js"></script> -->
 </body>
+
 </html>

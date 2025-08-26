@@ -37,11 +37,13 @@ transform: rotate(130deg);
   border-bottom-right-radius: 20px; /* Adjust as needed */
     right: -5px;
     left: -5px;
+    transition: all 0.3s ease;
 }
 .card-title-bar h3 {
   margin: 0; 
   font-size: 1.2em;
   color: white; 
+  transition: all 0.3s ease;
 }
 
 .craft_card:hover .card-title-bar{
