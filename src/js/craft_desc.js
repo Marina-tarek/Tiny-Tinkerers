@@ -33,7 +33,7 @@ function displayAllSteps(method) {
 show="";
 for (let i = 0; i < method.images.length; i++) {
     show+=`
-        <div class="w-[55%] mx-auto md:w-[40%] md:mx-0 lg:w-[30%] xl:w-[23%] relative rounded-2xl overflow-hidden">
+        <div class="inner_image w-[55%] mx-auto md:w-[40%] md:mx-0 lg:w-[30%] xl:w-[23%] relative rounded-2xl overflow-hidden">
 <img src="${method.images[i]}" alt="${method.name}" class="w-full h-[300px] object-cover">
 <div class="absolute w-[40px] h-[40px] rounded-full bg-[#00C2D7] top-[10px] left-[5px] flex justify-center items-center text-2xl text-white"><span> ${[i]} </span> </div>
 </div>
@@ -45,4 +45,68 @@ for (let i = 0; i < method.images.length; i++) {
     
 }
 
+// أول حاجة نعرض الصور
 displayAllSteps(craftDesc)
+
+// بعد ما الصور اتعرضت نجيبهم ونربط عليهم الأحداث
+var lightBox = document.getElementById('lightBox');
+var arrowRight = document.getElementById('arrowRight');
+var arrowLeft = document.getElementById('arrowLeft');
+var lightBoxImg = document.getElementById('lightBoxImg');
+var BoxImg = document.getElementById('BoxImg');
+var closeIcon = document.getElementById('closeIcon');
+var imgList = Array.from(document.querySelectorAll('.inner_image img'));
+var currentIndex;
+var isOpen = false;
+
+// events
+lightBox.addEventListener('click', hideSlider)
+document.addEventListener('keydown', function (e) {
+    if (isOpen) {
+        if (e.key == 'ArrowRight') getNextImg()
+        if (e.key == 'ArrowLeft') getPrevImg()
+        if (e.key == 'Escape') hideSlider()
+    }
+})
+arrowRight.addEventListener('click', getNextImg)
+arrowLeft.addEventListener('click', getPrevImg)
+closeIcon.addEventListener('click', hideSlider)
+
+// نربط الصور بالـ click بعد ما اتعرضت
+for (var i = 0; i < imgList.length; i++) {
+    imgList[i].addEventListener('click', showSlider)
+}
+
+function showSlider(e) {
+    isOpen = true;
+    var img = e.target;
+    currentIndex = imgList.indexOf(img);
+    var src = img.getAttribute('src');
+    lightBoxImg.style.backgroundImage = `url(${src})`
+    lightBox.classList.replace('hidden', 'flex')
+}
+
+function hideSlider() {
+    isOpen = false;
+    lightBox.classList.replace('flex', 'hidden')
+}
+
+function getNextImg() {
+        currentIndex += 1;
+    if (currentIndex == imgList.length) {
+        currentIndex = 0;
+    }
+    var img = craftDesc.im[currentIndex];
+    var src = img.getAttribute('src');
+    BoxImg.setAttribute('src', src);
+}
+
+function getPrevImg() {
+    currentIndex -= 1;
+    if (currentIndex < 0) {
+        currentIndex = imgList.length - 1;
+    }
+    var img = imgList[currentIndex];
+    var src = img.getAttribute('src');
+    lightBoxImg.style.backgroundImage = `url(${src})`
+}

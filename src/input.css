@@ -1,38 +1,8 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
-/* about section */
-/* .about_layer {
-    position: relative;
-}
-.about_layer::after{
-position: absolute;
-content: "";
-background-image: url(../src/images/37570310.png);
-display: block;
-background-size: contain;
-width: 65px;
-height: 65px;
-top: 0;
-left: 100px;
-}
-.about_layer::before{
-position: absolute;
-content: "";
-background-image: url(../src/images/37570310.png);
-display: block;
-background-size: contain;
-width: 65px;
-height: 65px;
-top: 0;
-right: 100px;
-transform: rotate(130deg);
-} */
-
 
 .card-title-bar {
-  padding: 10px 20px;
-  text-align: center;
   border-bottom-left-radius: 20px; 
   border-bottom-right-radius: 20px; 
     right: -5px;
@@ -41,7 +11,7 @@ transform: rotate(130deg);
 }
 .card-title-bar h3 {
   margin: 0; 
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   color: white; 
   transition: all 0.3s ease;
 }
@@ -51,4 +21,16 @@ transform: rotate(130deg);
 }
 .craft_card:hover .card-title-bar h3{
   color: #EE4F31;
+}
+
+#lightBoxImg {
+  width: 50%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* to top  */
+.to_top {
+display: none;
 }

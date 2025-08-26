@@ -36,10 +36,27 @@
 </div>
 </div>
 </section>
+<!-- box model (popup to show all steps) -->
+    <div class="flex justify-center items-center fixed bg-black   bg-opacity-100 top-0 bottom-0 end-0 start-0" id="lightBox">
+      <!-- style="background-image: url(path)" -->
+<div id="lightBoxImg" class="flex items-center justify-between w-[50%] h-[60vh] relative">
+          <img id="BoxImg" class="w-full h-full" src="../src/images/about-layer.jpg">
+        <i id="arrowLeft" class="m-3 text-white cursor-pointer text-xl fa-solid left-0 absolute fa-chevron-left"></i>
+        <i id="closeIcon" class="m-3 text-white cursor-pointer text-xl fa-regular fa-circle-xmark absolute top-0 end-0"></i>
+        <i id="arrowRight" class="m-3 text-white cursor-pointer text-xl fa-solid right-0 absolute fa-chevron-right"></i>
+      
+</div>
+    </div>
 
+
+   <!-- to return top -->
+  <div class=" justify-center rounded-t-full items-center to_top text-center py-2 cursor-pointer bottom-0 right-[10px] fixed bg-[#EE4F31] w-[35px] h-[35px]" id="toTopBtn">
+    <i class="fa-solid fa-angle-up text-xl text-white"></i>
+  </div>   
 
   <!-- footer section -->
 <footer id="Page_end" class=" bg-white dark:bg-gray-900  py-16"></footer>
+
 
     <script>
         fetch("navbar.html")

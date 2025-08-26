@@ -33,7 +33,7 @@ function displaySomeCraft(){
   for (let i = 0; i < 8; i++) {
    cartona+=`<div class="craft_card bg-white p-6 rounded-2xl shadow-lg hover:scale-105 hover:bg-[#EE4F31] hover:text-white transition text-center w-7/12  md:w-5/12 lg:w-4/12 xl:w-[22%] relative">
             <img src="${List[i].main_image}" alt="${List[i].name}" class="rounded-xl  w-full h-[15rem] object-fill">
-            <div class="card-title-bar  bg-[#EE4F31] hover:bg-white hover:text-[#EE4F31] absolute top-[50%]">
+            <div class="card-title-bar text-center py-2.5 px-5  bg-[#EE4F31] hover:bg-white hover:text-[#EE4F31] absolute top-[50%]">
               <h3 class="text-2xl font-semibold font-serif">${List[i].name}</h3>
             </div>
             <p class="text-gray-600 mt-10">${List[i].description.split(" ").slice(0,20).join(" ")}</p>
