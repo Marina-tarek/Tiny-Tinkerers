@@ -12,7 +12,7 @@ function displayAllCraft(){
             </div>
             <p class="text-gray-600 mt-10">${CraftList[z].description.split(" ").slice(0,20).join(" ")}</p>
           <div class="mt-10">
-          <a href="craft.html?id=${CraftList[z].id}" class="btn text-xl bg-[#00C2D7]  py-2 px-2.5 rounded-4xl text-white hover:bg-white hover:text-[#00C2D7] hover:border-[#00C2D7] transition-all">Show This Craft</a></div>
+          <a href="craft_desc.html?id=${CraftList[z].id}" class="btn text-xl bg-[#00C2D7]  py-2 px-2.5 rounded-4xl text-white hover:bg-white hover:text-[#00C2D7] hover:border-[#00C2D7] transition-all">Show This Craft</a></div>
         </div>
           </div>`
     
