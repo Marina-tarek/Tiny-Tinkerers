@@ -12,6 +12,7 @@
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="icon" href="../src/images/logo.webp">
     <link rel="stylesheet" href="output.css">
 </head>
@@ -28,7 +29,7 @@
 
 <div class=" py-10">
 <div class="flex justify-center">
-    <h2 class="text-[#EE4F31] text-3xl font-bold my-4 font-serif  underline decoration-wavy">Steps to make this Craft</h2>
+    <h2 class="text-[#EE4F31] text-3xl font-bold my-4 font-serif  underline decoration-wavy">Easy Steps to Create This Craft</h2>
 </div>
 <div id="craft_desc_images" class="flex flex-wrap  my-7  gap-x-5 gap-y-10 justify-evenly xl:justify-start" >
 
@@ -38,7 +39,7 @@
 <div class="flex justify-center">
     <h2 class="text-[#EE4F31] text-3xl font-bold my-4 font-serif  underline decoration-wavy">Get Your Tools Ready</h2>
 </div>
-<div id="tools" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 my-7">
+<div id="tools" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 my-7">
 
 </div>
 </div>
@@ -52,6 +53,26 @@
 </div>
 </div>
 </section>
+
+
+<div id="animation-carousel"
+     class="hidden fixed inset-0 w-full bg-black/90 z-[9999]  justify-center items-center"
+     data-carousel="static">
+
+  <div id="all_steps" class="relative w-[90vw] h-[70vh] overflow-hidden rounded-lg">
+    <!-- الصورة المعروضة بتتبدل بالـJS -->
+  </div>
+
+  <!-- Prev / Next -->
+  <button type="button" data-carousel-prev
+          class="absolute top-1/2 left-5 -translate-y-1/2 text-white text-3xl select-none"><i id="arrowLeft" class="m-3 pointer fa-solid fa-chevron-left"></i></button>
+  <button type="button" data-carousel-next
+          class="absolute top-1/2 right-5 -translate-y-1/2 text-white text-3xl select-none"><i id="arrowRight" class="m-3 pointer fa-solid fa-chevron-right"></i></button>
+
+  <!-- Close -->
+  <button id="closeCarousel"
+          class="absolute top-5 right-5 text-white text-2xl">✕</button>
+</div>
 
 
    <!-- to return top -->
@@ -73,7 +94,7 @@
 
     <script src="../src/js/mode.js"></script>
     <script src="../src/js/craft_desc.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
      <script>
     fetch("footer.html")
       .then(response => response.text())
@@ -81,6 +102,7 @@
         document.getElementById("Page_end").innerHTML = data2;
       });
   </script>
+
 </body>
 
 </html>
