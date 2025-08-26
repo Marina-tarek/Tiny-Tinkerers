@@ -38,6 +38,9 @@
 </section>
 
 
+  <!-- footer section -->
+<footer id="Page_end" class=" bg-white dark:bg-gray-900  py-16"></footer>
+
     <script>
         fetch("navbar.html")
             .then(response => response.text())
@@ -47,6 +50,14 @@
     </script>
     <script src="../src/js/mode.js"></script>
     <script src="../src/js/craft_desc.js"></script>
+
+     <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data2 => {
+        document.getElementById("Page_end").innerHTML = data2;
+      });
+  </script>
 </body>
 
 </html>

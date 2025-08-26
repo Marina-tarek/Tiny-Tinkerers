@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Marina Tarek">
   <title>Tiny Tinkerers</title>
   <link rel="icon" href="../src/images/logo.webp">
@@ -45,8 +45,8 @@
   <main>
     <!--start About section -->
     <section id="About"
-      class="about bg-white dark:bg-gray-900   h-[60vh] bg-[url(../src/images/about-layer.jpg)] bg-center bg-cover">
-      <div class="about_layer py-16 bg-[#000000af] h-[60vh] flex items-center">
+      class="about bg-white dark:bg-gray-900   h-[70vh] bg-[url(../src/images/about-layer.jpg)] bg-center bg-cover">
+      <div class="about_layer py-16 bg-[#000000af] h-[70vh] flex items-center">
         <div class="container mx-auto ">
           <div class="text-center">
             <h2 class="text-[#EE4F31]  text-3xl font-bold my-4 font-serif">About Us</h2>
@@ -130,9 +130,83 @@
       </div>
     </section>
     <!-- end popular crafts -->
+    <!-- start contact us section -->
+    <section id="Contact" class="bg-white dark:bg-gray-900  py-16">
+      <div class="container mx-auto">
+        <div class="flex justify-between  bg-white p-6 rounded-2xl shadow-lg ">
+          <div class="contact_info w-10/12 mx-auto md:w-[45%] md:mx-0">
+            <div class=" conatct_form">
+              <div class="my-7">
+                <h2 class="text-[#EE4F31] text-3xl font-bold my-4 font-serif underline decoration-wavy">Contact us</h2>
+                <p class="text-black">If you have any questions, ideas, or updates you'd like to share, feel free to
+                  contact us anytime. We're here to help!</p>
+              </div>
+              <div class="mt-10">
+                <div class="grid md:grid-cols-2 md:gap-6">
+                  <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_first_name" id="floating_first_name"
+                      class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                      placeholder=" " required />
+                    <label for="floating_first_name"
+                      class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First
+                      name</label>
+                  </div>
+                  <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_last_name" id="floating_last_name"
+                      class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                      placeholder=" " required />
+                    <label for="floating_last_name"
+                      class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last
+                      name</label>
+                  </div>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                  <input type="email" name="floating_email" id="floating_email"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " required />
+                  <label for="floating_email"
+                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email
+                    address</label>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                  <input type="text" name="floating_address" id="floating_address"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " required />
+                  <label for="floating_address"
+                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Address</label>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                  <input type="number" name="floating_phone" id="floating_phone"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " required />
+                  <label for="floating_phone"
+                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone
+                    Number</label>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                  <input type="text" name="floating_message" id="floating_message"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " required />
+                  <label for="floating_message"
+                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                    Messaga</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact_card w-10/12 mx-auto md:w-[45%] md:mx-0 ">
+            <img src="../src/images/collection craft.png" alt="collection from some craft images" class="w-full">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end contact us section  -->
   </main>
 
 
+  <!-- footer section -->
+<footer id="Page_end" class=" bg-white dark:bg-gray-900  py-16"></footer>
 
 
 
@@ -151,6 +225,14 @@
 
   <script src="../src/js/mode.js"></script>
   <script src="../src/js/index.js"></script>
+
+ <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data2 => {
+        document.getElementById("Page_end").innerHTML = data2;
+      });
+  </script>
 
 </body>
 
