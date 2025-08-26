@@ -597,8 +597,14 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-\[\#00C2D7\] {
+    border-color: #00C2D7;
+  }
   .border-\[\#EE4F31\] {
     border-color: #EE4F31;
+  }
+  .border-\[black\] {
+    border-color: black;
   }
   .border-black {
     border-color: var(--color-black);
@@ -675,6 +681,9 @@
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
   }
@@ -683,6 +692,9 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-2\.5 {
+    padding-block: calc(var(--spacing) * 2.5);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
@@ -1195,6 +1207,11 @@
       justify-content: space-between;
     }
   }
+  .xl\:justify-start {
+    @media (width >= 80rem) {
+      justify-content: flex-start;
+    }
+  }
   .rtl\:space-x-reverse {
     &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
       :where(& > :not(:last-child)) {
@@ -1220,6 +1237,11 @@
           border-color: color-mix(in oklab, var(--color-white) 10%, transparent);
         }
       }
+    }
+  }
+  .dark\:border-\[\#EE4F31\] {
+    &:where(.dark, .dark *) {
+      border-color: #EE4F31;
     }
   }
   .dark\:border-gray-700 {

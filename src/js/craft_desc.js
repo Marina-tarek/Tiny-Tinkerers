@@ -16,7 +16,7 @@ function displayFirstInformation(craft){
      <div class="flex justify-center">
 <h2 class="text-[#EE4F31] text-3xl font-bold my-4 font-serif  underline decoration-wavy">${craft.name}</h2>
      </div>
-     <div class="flex  justify-around lg:justify-between items-center flex-wrap my-7">
+     <div class="flex  justify-around lg:justify-evenly items-center flex-wrap my-7">
     <div class="w-10/12 md:w-5/12 mb-7 md:mb-0 ">
        <img src="${craft.main_image}" alt="${craft.name}" class="w-full aspect-[15/12] object-fill">
     </div>
