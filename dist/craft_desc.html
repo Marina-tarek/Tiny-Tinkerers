@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Marina Tarek">
+    <title>Tiny Tinkerers</title>
+    <link rel="icon" href="../src/images/logo.webp">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav id="navbar-placeholder" class="shadow-lg border-b-[1px] border-[#EE4F31] "></nav>
+
+
+
+
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+    </script>
+    <script src="../src/js/mode.js"></script>
+    <script src="../src/js/craft_desc.js"></script>
+</body>
+
+</html>
