@@ -2,7 +2,7 @@
   "Crafts": [
     {
       "id": 1,
-      "name": "Sheep Tissue Paper",
+      "name": "Sheep",
       "description": "Create your own fluffy sheep using soft tissue paper! \n This easy craft helps kids develop fine motor skills while having fun tearing, gluing, and shaping the paper into a cute, cuddly sheep.\n Perfect for storytime or farm-themed activities!",
       "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg",
       "images": [
@@ -14,8 +14,8 @@
         "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg"
       ],
       "category": "paper",
-      "video": "https://www.youtube.com/embed/d6lMpaVI91k?si=jXcA7EJ0IFDrP3Lg",
-      "tools":["White tissue paper","Cardstock or white paper","Glue","Scissors","Googly eyes (optional)"]
+      "video": "https://www.youtube.com/embed/d6lMpaVI91k?si=BraBvQEZOcsTDuAH",
+      "tools":["White tissue paper","white paper","Glue","Scissors","Googly eyes"]
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
       ],
       "category": "paper",
       "video": "https://www.youtube.com/embed/8bMjWnvanIQ?si=8u46yN1d3UAOgkUG",
-      "tools":["Empty toilet paper roll","acrylic","paintbrush","Glue","Googly eyes","Markers"]
+      "tools":["toilet paper roll","acrylic","paintbrush","Glue","Googly eyes","Markers"]
     },
     {
       "id": 3,
@@ -64,7 +64,7 @@
       ],
       "category": "clay",
       "video": "https://www.youtube.com/embed/1lHuufFC7NM?si=WYrzpF3ruhdLPrOe",
-      "tools":["clay types", "basic tools", "optional painting supplies"]
+      "tools":["clay types", "basic tools", "painting supplies"]
     },
     {
       "id": 5,
@@ -81,7 +81,7 @@
       ],
       "category": "clay",
       "video": "https://www.youtube.com/embed/Anhln849OOs?si=l02NsGf0EzN6c8DK",
-      "tools":["Palette knife","Box cutter or blade","Toothpicks","Roller","polymer clay"]
+      "tools":["Palette knife","blade","Toothpicks","Roller","polymer clay"]
     },
     {
       "id": 6,
@@ -98,7 +98,7 @@
       ],
       "category": "model",
       "video": "https://www.youtube.com/embed/0xFOnhDE9fk?si=aYt3wOoroFFA-lR6",
-      "tools":["Plastic bottles","Sticks or skewers","Elastic bands","Bottle caps","Glue","Craft knife or scissors"]
+      "tools":["Plastic bottles","skewers","Elastic bands","Bottle caps","Glue","scissors"]
     },
     {
       "id": 7,
@@ -115,7 +115,7 @@
       ],
       "category": "paper",
       "video": "https://www.youtube.com/embed/kMcpVy-uPEk?si=0mAEXF1hyayOW1w5",
-      "tools":["Brown paper","Scissors","Markers or crayons","White paper","Glue","Optional embellishments","Colored paper"]
+      "tools":["Brown paper","Scissors","Markers","White paper","Glue","embellishments","Colored paper"]
     },
     {
       "id": 8,
@@ -132,7 +132,7 @@
       ],
       "category": "model",
       "video": "https://www.youtube.com/embed/4U_5Nw7WrL8?si=c3SCXCriAozzG0od",
-      "tools":["Paper","Glue","craft blade","Glue","Printed templates (optional)","Rubber bands (optional)"]
+      "tools":["Paper","Glue","craft blade","Glue","Printed templates","Rubber bands"]
     }
     
     

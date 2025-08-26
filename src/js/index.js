@@ -36,7 +36,7 @@ function displaySomeCraft(){
             <div class="card-title-bar text-center py-2.5 px-5  bg-[#EE4F31] hover:bg-white hover:text-[#EE4F31] absolute top-[50%]">
               <h3 class="text-2xl font-semibold font-serif">${List[i].name}</h3>
             </div>
-            <p class="text-gray-600 mt-10">${List[i].description.split(" ").slice(0,20).join(" ")}</p>
+            <p class="text-gray-600 mt-10">${List[i].description.split(" ").slice(0,15).join(" ")}</p>
           <div class="mt-10">
           <a href="craft_desc.html?id=${List[i].id}" class="btn text-xl bg-[#00C2D7]  py-2 px-2.5 rounded-4xl text-white hover:bg-white hover:text-[#00C2D7] hover:border-[#00C2D7] transition-all">Show This Craft</a></div>
         </div>
