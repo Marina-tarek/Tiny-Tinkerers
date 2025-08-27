@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Sheep",
-      "description": "Create your own fluffy sheep using soft tissue paper! \n This easy craft helps kids develop fine motor skills while having fun tearing, gluing, and shaping the paper into a cute, cuddly sheep.\n Perfect for storytime or farm-themed activities!",
+      "description": "Create your own fluffy sheep using soft tissue paper!  This easy craft helps kids develop fine motor skills while having fun tearing, gluing, and shaping the paper into a cute, cuddly sheep. Perfect for storytime or farm-themed activities!",
       "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/Sheep-Tissue-Paper-Craft-for-spring.jpg",
       "images": [
         "https://www.simpleeverydaymom.com/wp-content/uploads/2023/04/sheep-farm-craft-image.jpg",
@@ -69,7 +69,7 @@
     {
       "id": 5,
       "name": "Minion",
-      "description": "Bring your favorite yellow friends to life with this fun Minion clay project! Using colorful clay, kids can roll, shape, and build their own silly Minion—complete with overalls, big goggles, and a cheeky smile. It’s a great way to practice creativity and fine motor skills while making a playful character you can display or gift.\n This activity is perfect for kids who love Minions, clay modeling, or fun movie crafts. Each Minion will look a little different, making every creation unique and full of personality!",
+      "description": "Bring your favorite yellow friends to life with this fun Minion clay project! Using colorful clay, kids can roll, shape, and build their own silly Minion—complete with overalls, big goggles, and a cheeky smile. It’s a great way to practice creativity and fine motor skills while making a playful character you can display or gift. This activity is perfect for kids who love Minions, clay modeling, or fun movie crafts. Each Minion will look a little different, making every creation unique and full of personality!",
       "main_image": "https://i.pinimg.com/736x/92/c3/12/92c31238c708f3615cee2df5b6c12690.jpg",
       "images": [
         "https://i.pinimg.com/736x/8f/d3/84/8fd384360e1278f4f88524159d0e3389.jpg",
@@ -103,7 +103,7 @@
     {
       "id": 7,
       "name": "Gingerbread",
-      "description": "This fun holiday craft lets kids make their own gingerbread friend using just paper, glue, and imagination! Start with a brown paper gingerbread shape, then tear little pieces of white paper to look like icing. Add colorful paper for buttons and candies, draw a big smile, and decorate however you like.\n It’s simple, festive, and perfect for Christmas activities at home, in school, or during holiday parties. The best part? Tearing the paper gives your gingerbread a cute, textured look—and no two gingerbread people will ever be the same!",
+      "description": "This fun holiday craft lets kids make their own gingerbread friend using just paper, glue, and imagination! Start with a brown paper gingerbread shape, then tear little pieces of white paper to look like icing. Add colorful paper for buttons and candies, draw a big smile, and decorate however you like. It's simple, festive, and perfect for Christmas activities at home, in school, or during holiday parties. The best part? Tearing the paper gives your gingerbread a cute, textured look—and no two gingerbread people will ever be the same!",
       "main_image": "https://www.simpleeverydaymom.com/wp-content/uploads/2023/12/free-printable-gingerbread-man-template-image.jpg",
       "images": [
         "https://www.simpleeverydaymom.com/wp-content/uploads/2023/12/gingerbread-template-free-printable-image.jpg",
@@ -120,7 +120,7 @@
     {
       "id": 8,
       "name": "Robot",
-      "description": "Build your very own robot that really moves—using just paper and a few simple supplies! This fun craft lets kids cut, fold, and glue paper to make a playful robot with arms or parts that swing and wiggle. By adding small pivots or paper rods, the robot comes to life in a creative, hands-on way.\n It’s the perfect project for kids who love robots, engineering, and imaginative play. Plus, it encourages problem-solving and fine motor skills while keeping the activity simple and fun. Each robot can be decorated differently, so no two robots are ever the same!",
+      "description": "Build your very own robot that really moves—using just paper and a few simple supplies! This fun craft lets kids cut, fold, and glue paper to make a playful robot with arms or parts that swing and wiggle. By adding small pivots or paper rods, the robot comes to life in a creative, hands-on way. It's the perfect project for kids who love robots, engineering, and imaginative play. Plus, it encourages problem-solving and fine motor skills while keeping the activity simple and fun. Each robot can be decorated differently, so no two robots are ever the same!",
       "main_image": "https://i.pinimg.com/736x/c4/bd/60/c4bd6099ca3eee6a89881fa6646cdd89.jpg",
       "images": [
         "https://i.pinimg.com/1200x/98/2f/61/982f619b95faa3eec613f4f67df7913e.jpg",
@@ -134,7 +134,78 @@
       "video": "https://www.youtube.com/embed/4U_5Nw7WrL8?si=c3SCXCriAozzG0od",
       "tools":["Paper","Glue","craft blade","Glue","Printed templates","Rubber bands"]
     }
-    
-    
+    ,
+    {
+      "id": 9,
+      "name": "Duck Painting",
+      "description": "This Duck Painting craft is a fun and creative activity where kids or beginners can explore their artistic skills by painting a cheerful duck in a simple scenic background, helping them practice brush control, color blending, and attention to detail while enjoying the process of bringing the artwork to life.",
+      "main_image": "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-final-image.jpg",
+      "images": [
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-1.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-2.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-3.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-4.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-6.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/06/easy-duck-painting-step-by-step-tutorial-for-kids-8.jpg"
+      ],
+      "category": "painting",
+      "video": "https://www.youtube.com/embed/rYEIw5z6Gsg?si=ShMQVpPHUfJ9BI-4",
+      "tools":["Paper","Paints","Water cup","Paintbrushes","Eraser","Palette","Pencil"]
+    },
+    {
+      "id": 10,
+      "name": "Origami Paper Star",
+      "description": "A mesmerizing 3D origami star created from a flat square sheet, skillfully folded through a series of precise steps that transform it into a dimensional, decorative star with elegant symmetry and texture",
+      "main_image": "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-Final-Image-768x665.jpg",
+      "images": [
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-1.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-2.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-3.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-4.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-5.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-6.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-7.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/05/How-to-Make-Origami-Paper-Star-Tutorial-8.jpg"
+      ],
+      "category": "paper",
+      "video": "https://www.youtube.com/embed/9sIE4k6g5Xw?si=6cuPSwaSaF4JVDR6",
+      "tools":["Origami paper","Pencil","Ruler","Scissors"]
+    },
+    {
+      "id": 11,
+      "name": "Peacock",
+      "description": "This craft is a beautiful peacock made from clay, where colorful clay is shaped and molded to form the elegant body, detailed feathers, and vibrant patterns of the bird, resulting in a creative, textured, and eye-catching artwork that showcases both patience and artistic skill.",
+      "main_image": "https://i.pinimg.com/1200x/82/e3/2e/82e32eeeabd07e835ae13d9e10133d40.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/eb/5c/a6/eb5ca6c1d70000ea04965ee6136d6ee6.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/07/how-to-make-clay-peacock-easy-tutorial-for-kids-1.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/07/how-to-make-clay-peacock-easy-tutorial-for-kids-4.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/07/how-to-make-clay-peacock-easy-tutorial-for-kids-5.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/07/how-to-make-clay-peacock-easy-tutorial-for-kids-7.jpg",
+        "https://www.kidsartncraft.com/wp-content/uploads/2023/07/how-to-make-clay-peacock-easy-tutorial-for-kids-8.jpg"
+      ],
+      "category": "Clay",
+      "video": "https://www.youtube.com/embed/mt_kCqyIVJg?si=_LtB2d7eg9Php8Qk",
+      "tools":["White paper","Googly eyes","Colored clay","Markers"]
+    } 
+        ,
+    {
+      "id": 12,
+      "name": "Design by Button",
+      "description": "This craft is a vibrant and creative button art project where colorful buttons of different sizes and shapes are carefully arranged and glued onto a dark background to form a cheerful character design, creating a playful, textured, and eye-catching piece of artwork.",
+      "main_image": "https://i.pinimg.com/1200x/84/0e/cf/840ecf03cf1b8365c578c62df46625d4.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/51/b1/30/51b1309afe55eb0bb25942af92af0c0e.jpg",
+        "https://i.pinimg.com/736x/1e/fa/de/1efade61c2eed28f8b47d1141eed5af5.jpg",
+        "https://i.pinimg.com/736x/db/fd/f6/dbfdf61189ae46489d5b3926e8d5c772.jpg",
+        "https://i.pinimg.com/736x/fc/c1/8e/fcc18e502ba014532aae2756af1f2475.jpg",
+        "https://i.pinimg.com/736x/8a/c7/ad/8ac7ad4e47873b8bbe0b3d9be25a6d6c.jpg",
+        "https://cdn.homedit.com/wp-content/uploads/2019/07/Pencil-holder-decor-with-buttons.jpg"
+      ],
+      "category": "painting",
+      "video": "https://www.youtube.com/embed/9sIE4k6g5Xw?si=6cuPSwaSaF4JVDR6",
+      "tools":["Paper","Paints","button","Paintbrushes","Eraser","Palette","Pencil","Glu"]
+    }
+     
   ]
 }
