@@ -12,7 +12,7 @@
 
 async function loadAndStoreData() {
   try {
-    const response = await fetch('../../src/js/miniCrafts.json'); 
+    const response = await fetch('js/miniCrafts.json'); 
     const jsonData = await response.json(); 
 
  
