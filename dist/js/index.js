@@ -49,3 +49,9 @@ function displaySomeCraft(){
 }
 
 displaySomeCraft()
+
+
+document.getElementById("btn_submit").addEventListener("click",function(){
+  document.getElementById("submit_messg").classList.remove("hidden")
+
+})
