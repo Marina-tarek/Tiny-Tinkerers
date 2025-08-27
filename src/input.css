@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
-@custom-variant hover (&:hover)
+/* @custom-variant hover (&:hover) */
 
 .card-title-bar {
   border-bottom-left-radius: 20px; 
