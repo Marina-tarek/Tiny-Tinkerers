@@ -3,9 +3,6 @@
     "@tailwindcss/cli": "^4.1.12",
     "tailwindcss": "^4.1.12"
   },
-  "scripts": {
-  "dev": "vite",          
-  "build": "vite build",  
-  "start": "vite preview" 
-}
+  "scripts": { "build": "echo 'no build needed'"}
+  
 }
