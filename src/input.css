@@ -15,14 +15,19 @@
   color: white; 
   transition: all 0.3s ease;
 }
-
+.craft_card p{
+  color: rgba(128, 128, 128, 0.767);
+  transition: all 0.3s ease;
+}
 .craft_card:hover .card-title-bar{
   background-color: white ;
 }
 .craft_card:hover .card-title-bar h3{
   color: #EE4F31;
 }
-
+.craft_card:hover p{
+  color: white !important;
+}
 #lightBoxImg {
   width: 50%;
   height: 70vh;
