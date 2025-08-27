@@ -1,16 +1,14 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+@custom-variant hover (&:hover)
 
 .card-title-bar {
   border-bottom-left-radius: 20px; 
   border-bottom-right-radius: 20px; 
-    right: -5px;
-    left: -5px;
     transition: all 0.3s ease;
 }
 .card-title-bar h3 {
-  margin: 0; 
   /* font-size: 1.2em; */
   color: white; 
   transition: all 0.3s ease;
@@ -28,14 +26,9 @@
 .craft_card:hover p{
   color: white !important;
 }
-#lightBoxImg {
-  width: 50%;
-  height: 70vh;
-  background-size: cover;
-  background-position: center;
-}
 
 /* to top  */
 .to_top {
 display: none;
 }
+
